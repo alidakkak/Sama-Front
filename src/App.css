@@ -1,0 +1,225 @@
+body {
+  font-family: "Tajawal", sans-serif !important;
+}
+
+/* Start Component*/
+
+/* End Component*/
+
+/* Start Glable Rules */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #2a4d69;
+  --secondary: #f18f01;
+}
+
+body {
+  /* background: #dfdfdf !important; */
+  margin: 0;
+
+  position: relative;
+}
+
+/* 
+.myswiper{
+  text-align: center;
+  display: flex;
+  position: absolute;
+  gap: 1rem;
+ 
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 50%;
+
+} */
+
+/* .swiper-wrapper{
+  text-align: center;
+  display: flex;
+} */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* body{
+  margin: 0;
+  padding:0
+} */
+
+/* Start Variables */
+
+button:active {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.mainButton {
+  padding: 0.3rem 1rem;
+  background: var(--secondary);
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid var(--secondary);
+  color: #fff;
+}
+
+.mainButton:hover {
+  background-color: #db8803;
+  border-color: #db8803;
+  color: #fff;
+}
+
+.bar {
+  background-color: var(--secondary);
+  left: 0;
+  bottom: 15%;
+  transition: 0.3s;
+  height: 80%;
+  position: absolute;
+}
+.activeBar {
+  width: 6px;
+}
+.disactiveBar {
+  width: 0%;
+}
+
+.miniBar {
+  background-color: var(--secondary);
+  right: -0.5rem;
+  bottom: 1px;
+  transition: 0.3s;
+  height: 80%;
+  width: 3px;
+  position: absolute;
+}
+.studentBar {
+  background-color: var(--main);
+  right: 0%;
+
+  bottom: 0;
+  transition: 0.3s;
+  width: 80%;
+  height: 3px;
+  position: absolute;
+}
+
+.crudButton {
+  padding: 0.2rem 0.8rem;
+  margin: 1rem 0rem auto auto;
+  display: block;
+
+  border: 1px solid #757575;
+  font-size: 0.9rem;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.activeButton:hover {
+  background-color: #1d3c55;
+  color: #eee;
+}
+
+.activeButton {
+  cursor: pointer;
+  background: #c4dbfa;
+  color: #757575;
+}
+.disabledButton {
+  background-color: #eaeaea;
+  color: #acacac;
+  cursor: auto;
+}
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  transform: translateX(-5px);
+  width: 6px;
+  height: 90%;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  /* background-color: #d3d2d2; */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.submitButton {
+  padding: 0.3rem 1rem;
+  background: var(--main);
+  border-radius: 2px;
+  outline: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.submitButton:hover {
+  background: #1d3c55;
+}
+
+.react-datepicker__input-container input {
+  border: 2px solid #ddd;
+  padding: 0.3rem;
+  height: 100%;
+  transition: 0.3s;
+  outline: none;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none;
+  border-color: var(--main);
+  /* box-shadow: 0 0 4px 2px var(--main)8e; */
+}
+.react-datepicker__input-container {
+  width: 70% !important;
+  height: 80%;
+}
+
+.react-datepicker-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: end;
+  text-align: right;
+}
+
+.MuiFormControl-root,
+.MuiTextField-root,
+.css-12ta5yf-MuiFormControl-root-MuiTextField-root {
+  border-radius: 4px;
+}
+.MuiTableCell-root {
+  text-align: right !important;
+}
